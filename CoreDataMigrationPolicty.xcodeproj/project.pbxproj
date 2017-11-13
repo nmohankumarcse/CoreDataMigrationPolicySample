@@ -16,6 +16,21 @@
 		522CF5B01F9E204500B87783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5AF1F9E204500B87783 /* main.m */; };
 		522CF5BA1F9E204500B87783 /* CoreDataMigrationPolictyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5B91F9E204500B87783 /* CoreDataMigrationPolictyTests.m */; };
 		522CF5C51F9E204500B87783 /* CoreDataMigrationPolictyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5C41F9E204500B87783 /* CoreDataMigrationPolictyUITests.m */; };
+		522CF5E61F9E298B00B87783 /* SOCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5E51F9E298B00B87783 /* SOCoreDataHelper.m */; };
+		522CF5EB1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5E81F9E2BE500B87783 /* Sample+CoreDataClass.m */; };
+		522CF5EC1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5E81F9E2BE500B87783 /* Sample+CoreDataClass.m */; };
+		522CF5ED1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5E81F9E2BE500B87783 /* Sample+CoreDataClass.m */; };
+		522CF5EE1F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5EA1F9E2BE500B87783 /* Sample+CoreDataProperties.m */; };
+		522CF5EF1F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5EA1F9E2BE500B87783 /* Sample+CoreDataProperties.m */; };
+		522CF5F01F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5EA1F9E2BE500B87783 /* Sample+CoreDataProperties.m */; };
+		522CF5F11F9E2C5D00B87783 /* CoreDataMigrationPolicty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5A61F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodeld */; };
+		522CF5F21F9E2C5D00B87783 /* CoreDataMigrationPolicty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5A61F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodeld */; };
+		522CF5F51F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F41F9E31C400B87783 /* v1tov2Model.xcmappingmodel */; };
+		522CF5F61F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F41F9E31C400B87783 /* v1tov2Model.xcmappingmodel */; };
+		522CF5F71F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F41F9E31C400B87783 /* v1tov2Model.xcmappingmodel */; };
+		522CF5FA1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F91F9E322A00B87783 /* SampleMigrationV1toV2.m */; };
+		522CF5FB1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F91F9E322A00B87783 /* SampleMigrationV1toV2.m */; };
+		522CF5FC1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 522CF5F91F9E322A00B87783 /* SampleMigrationV1toV2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,17 @@
 		522CF5C01F9E204500B87783 /* CoreDataMigrationPolictyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataMigrationPolictyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522CF5C41F9E204500B87783 /* CoreDataMigrationPolictyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataMigrationPolictyUITests.m; sourceTree = "<group>"; };
 		522CF5C61F9E204500B87783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522CF5E41F9E298B00B87783 /* SOCoreDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOCoreDataHelper.h; sourceTree = "<group>"; };
+		522CF5E51F9E298B00B87783 /* SOCoreDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOCoreDataHelper.m; sourceTree = "<group>"; };
+		522CF5E71F9E2BE500B87783 /* Sample+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample+CoreDataClass.h"; sourceTree = "<group>"; };
+		522CF5E81F9E2BE500B87783 /* Sample+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Sample+CoreDataClass.m"; sourceTree = "<group>"; };
+		522CF5E91F9E2BE500B87783 /* Sample+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample+CoreDataProperties.h"; sourceTree = "<group>"; };
+		522CF5EA1F9E2BE500B87783 /* Sample+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Sample+CoreDataProperties.m"; sourceTree = "<group>"; };
+		522CF5F31F9E317500B87783 /* CoreDataMigrationPolicty 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataMigrationPolicty 2.xcdatamodel"; sourceTree = "<group>"; };
+		522CF5F41F9E31C400B87783 /* v1tov2Model.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = v1tov2Model.xcmappingmodel; sourceTree = "<group>"; };
+		522CF5F81F9E322A00B87783 /* SampleMigrationV1toV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleMigrationV1toV2.h; sourceTree = "<group>"; };
+		522CF5F91F9E322A00B87783 /* SampleMigrationV1toV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMigrationV1toV2.m; sourceTree = "<group>"; };
+		5280CA521FB9C5F800405269 /* NSEntityMigrationPolicy+v1Tov2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSEntityMigrationPolicy+v1Tov2.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +109,12 @@
 		522CF5911F9E204500B87783 = {
 			isa = PBXGroup;
 			children = (
+				522CF5E71F9E2BE500B87783 /* Sample+CoreDataClass.h */,
+				522CF5E81F9E2BE500B87783 /* Sample+CoreDataClass.m */,
+				522CF5E91F9E2BE500B87783 /* Sample+CoreDataProperties.h */,
+				522CF5EA1F9E2BE500B87783 /* Sample+CoreDataProperties.m */,
+				522CF5E41F9E298B00B87783 /* SOCoreDataHelper.h */,
+				522CF5E51F9E298B00B87783 /* SOCoreDataHelper.m */,
 				522CF59C1F9E204500B87783 /* CoreDataMigrationPolicty */,
 				522CF5B81F9E204500B87783 /* CoreDataMigrationPolictyTests */,
 				522CF5C31F9E204500B87783 /* CoreDataMigrationPolictyUITests */,
@@ -113,6 +145,10 @@
 				522CF5AE1F9E204500B87783 /* Info.plist */,
 				522CF5AF1F9E204500B87783 /* main.m */,
 				522CF5A61F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodeld */,
+				522CF5F81F9E322A00B87783 /* SampleMigrationV1toV2.h */,
+				5280CA521FB9C5F800405269 /* NSEntityMigrationPolicy+v1Tov2.h */,
+				522CF5F91F9E322A00B87783 /* SampleMigrationV1toV2.m */,
+				522CF5F41F9E31C400B87783 /* v1tov2Model.xcmappingmodel */,
 			);
 			path = CoreDataMigrationPolicty;
 			sourceTree = "<group>";
@@ -268,9 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522CF5E61F9E298B00B87783 /* SOCoreDataHelper.m in Sources */,
 				522CF5A21F9E204500B87783 /* ViewController.m in Sources */,
 				522CF5A81F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodeld in Sources */,
+				522CF5F51F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */,
+				522CF5EB1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */,
+				522CF5EE1F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */,
 				522CF5B01F9E204500B87783 /* main.m in Sources */,
+				522CF5FA1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */,
 				522CF59F1F9E204500B87783 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				522CF5BA1F9E204500B87783 /* CoreDataMigrationPolictyTests.m in Sources */,
+				522CF5EF1F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */,
+				522CF5F11F9E2C5D00B87783 /* CoreDataMigrationPolicty.xcdatamodeld in Sources */,
+				522CF5EC1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */,
+				522CF5FB1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */,
+				522CF5F61F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				522CF5C51F9E204500B87783 /* CoreDataMigrationPolictyUITests.m in Sources */,
+				522CF5F01F9E2BE500B87783 /* Sample+CoreDataProperties.m in Sources */,
+				522CF5F21F9E2C5D00B87783 /* CoreDataMigrationPolicty.xcdatamodeld in Sources */,
+				522CF5ED1F9E2BE500B87783 /* Sample+CoreDataClass.m in Sources */,
+				522CF5FC1F9E322A00B87783 /* SampleMigrationV1toV2.m in Sources */,
+				522CF5F71F9E31C400B87783 /* v1tov2Model.xcmappingmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreDataMigrationPolicty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Mohankumar.CoreDataMigrationPolicty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoreDataMigrationPolicty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Mohankumar.CoreDataMigrationPolicty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,9 +608,10 @@
 		522CF5A61F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				522CF5F31F9E317500B87783 /* CoreDataMigrationPolicty 2.xcdatamodel */,
 				522CF5A71F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodel */,
 			);
-			currentVersion = 522CF5A71F9E204500B87783 /* CoreDataMigrationPolicty.xcdatamodel */;
+			currentVersion = 522CF5F31F9E317500B87783 /* CoreDataMigrationPolicty 2.xcdatamodel */;
 			path = CoreDataMigrationPolicty.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -7,16 +7,19 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Sample+CoreDataProperties.h"
+#import "SOCoreDataHelper.h"
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
+NSManagedObjectContext *managedObjectContext;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [self insertSampleEntity];
+    [self performSelector:@selector(insertSampleEntity) withObject:nil afterDelay:1];
     return YES;
 }
 
@@ -49,10 +52,40 @@
     [self saveContext];
 }
 
+-(void)insertSampleEntity{
+    
+    Sample *sample = (Sample *)[NSEntityDescription insertNewObjectForEntityForName:@"Sample" inManagedObjectContext:SOCoreDataHelper.sharedInstance.managedObjectContext];
+    sample.name = @"Mohankumar";
+    sample.number = @"65----";
+    NSManagedObjectContext *context = SOCoreDataHelper.sharedInstance.managedObjectContext;
+    NSError *error = nil;
+    if ([context hasChanges] && ![context save:&error]) {
+        // Replace this implementation with code to handle the error appropriately.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
+        abort();
+    }
+}
+
 
 #pragma mark - Core Data stack
 
 @synthesize persistentContainer = _persistentContainer;
+
+- (NSManagedObjectContext *)managedObjectContext {
+    // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.)
+    if (managedObjectContext != nil) {
+        return managedObjectContext;
+    }
+    
+    NSPersistentStoreCoordinator *coordinator = self.persistentContainer.persistentStoreCoordinator;
+    if (!coordinator) {
+        return nil;
+    }
+    managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+    [managedObjectContext setPersistentStoreCoordinator:coordinator];
+    return managedObjectContext;
+}
 
 - (NSPersistentContainer *)persistentContainer {
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
@@ -81,6 +114,8 @@
     
     return _persistentContainer;
 }
+
+
 
 #pragma mark - Core Data Saving support
 
